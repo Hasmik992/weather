@@ -16,6 +16,8 @@ input.addEventListener("keyup", (event) => {
     getWeather(urlsrc);
   }
   console.log(event);
+  console.log(event);
+  console.log(event);
 });
 
 let lat;
