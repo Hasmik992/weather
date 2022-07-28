@@ -9,13 +9,13 @@ let arr;
 let diff = null;
 
 input.addEventListener("keyup", (event) => {
-  console.log(event);
   if (event.code === "Enter") {
     const urlsrc =
       weathercast +
       `q=${event.target.value}&appid=fd48bdf8a8b87b3c140f17625f4e2d57&units=metric`;
     getWeather(urlsrc);
   }
+  console.log(event);
 });
 
 let lat;
