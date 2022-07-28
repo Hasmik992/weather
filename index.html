@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обратный отсчет</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="input_wrapper">
+      <label> Hello !!! </label>
+      <input type="text" value="" placeholder="Enter the country name" />
+      <img src="./img/Vector_search_icon.svg.png" alt="" />
+    </div>
+
+    <div id="weather-forecast" class="weather-forecast">
+      <div class="today-info">
+        <div class="wrapper">
+          <img src="./img/free-location-icon-2950-thumb.png" alt="icon" />
+          <p id="country">location</p>
+        </div>
+        <div class="wrapper">
+          <p id="degree" class="temperature">degree</p>
+          <img src="" alt="" />
+        </div>
+        <div class="wrapper">
+          <p>Wind speed is</p>
+          <p id="wind">Wind</p>
+        </div>
+      </div>
+
+      <div id="root" class="other-days"></div>
+    </div>
+
+    <div class="weather-by-hours"></div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
